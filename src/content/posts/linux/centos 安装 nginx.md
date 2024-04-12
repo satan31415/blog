@@ -27,3 +27,12 @@ sudo systemctl stop nginx
 sudo systemctl restart nginx
 sudo systemctl reload nginx
 ```
+
+### ngxin 路径
+```
+# 应用程序目录
+/usr/share/nginx
+
+# 配置文件目录
+/etc/nginx
+```
