@@ -8,7 +8,7 @@ draft: false
 ---
 
 ### nvm 介绍
->nvm全称“node.js version management”，是一个nodejs的版本管理工具，用于解决node各种版本存在的不兼容现象，它是可以在同一台机器上安装和切换不同版本的node的工具。
+> nvm全称“node.js version management”，是一个nodejs的版本管理工具，用于解决node各种版本存在的不兼容现象，它是可以在同一台机器上安装和切换不同版本的node的工具。
 
 ### 通过 git 安装
 > cd /home
