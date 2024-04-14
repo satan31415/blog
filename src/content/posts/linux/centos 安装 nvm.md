@@ -15,7 +15,7 @@ draft: false
 > sh ./nvm/install.sh
 
 ### 修改配置文件
-``` shell
+```shell
 # 查看终端
 echo $SHELL
 # 如果是默认终端
@@ -29,5 +29,22 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 source ~/.bash_profile
 # zsh 编译配置文件
 source ~/.zshrc
+```
+
+### nvm 常用命令
+```shell
+nvm -v
+# 查看下载的 node 版本 
+nvm ls 
+# 查看当前使用的版本
+nvm current
+# 查看所有 node 版本
+nvm list-remote
+# 安装指定版本
+nvm install 16.18.1
+# 删除指定版本
+nvm uninstall 16.18.1
+# 切换 node 版本
+# nvm use 16.18.1
 ```
 
