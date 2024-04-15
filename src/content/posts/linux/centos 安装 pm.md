@@ -15,6 +15,7 @@ draft: false
 
 ### 查看 pm2 运行状态
 `pm2 list`
+
 `pm2 ls`
 
 ### 停止 pm2
@@ -22,6 +23,7 @@ draft: false
 
 ### 删除 pm2
 `pm2 delete [appname] | id`
+
 `pm2 delete all`
 
 ### 重启 pm2
@@ -37,6 +39,7 @@ draft: false
 
 ### 查看进程详情
 `pm2 describe app`
+
 `pm2 show [name]`
 
 ### pm2 保存当前进程列表
