@@ -20,6 +20,10 @@ draft: false
 ### 停止 pm2
 `pm2 stop app.js`
 
+### 删除 pm2
+`pm2 delete [appname] | id`
+`pm2 delete all`
+
 ### 重启 pm2
 `pm2 restart app.js`
 
@@ -27,3 +31,19 @@ draft: false
 > pm2 start app.js --name my-api
 
 > pm2 start app.js --name my-api --watch
+
+### pm2 开机启动
+`pm2 startup`
+
+### 查看进程详情
+`pm2 describe app`
+`pm2 show [name]`
+
+### pm2 保存当前进程列表
+`pm2 save`
+
+### 查看日志
+`pm2 log [name]`
+
+### 集群启动
+`pm2 start app.js -i max`
