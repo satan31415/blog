@@ -11,7 +11,7 @@ export function getHue(): number {
 
 export function setHue(hue: number): void {
   localStorage.setItem('hue', String(hue))
-  const r = document.querySelector(':root')
+  const r: any = document.querySelector(':root')
   if (!r) {
     return
   }

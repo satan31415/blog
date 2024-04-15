@@ -6,7 +6,7 @@ export async function getSortedPosts() {
   const allBlogPosts = await getCollection('posts', ({ data }) => {
     return import.meta.env.PROD ? data.draft !== true : true
   })
-  const sorted = allBlogPosts.sort((a, b) => {
+  const sorted: any = allBlogPosts.sort((a, b) => {
     const dateA = new Date(a.data.published)
     const dateB = new Date(b.data.published)
     return dateA > dateB ? -1 : 1
@@ -30,12 +30,12 @@ export type Tag = {
 }
 
 export async function getTagList(): Promise<Tag[]> {
-  const allBlogPosts = await getCollection('posts', ({ data }) => {
+  const allBlogPosts: any = await getCollection('posts', ({ data }) => {
     return import.meta.env.PROD ? data.draft !== true : true
   })
 
   const countMap: { [key: string]: number } = {}
-  allBlogPosts.map(post => {
+  allBlogPosts.map((post: any) => {
     post.data.tags.map((tag: string) => {
       if (!countMap[tag]) countMap[tag] = 0
       countMap[tag]++
