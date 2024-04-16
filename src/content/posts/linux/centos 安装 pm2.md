@@ -42,6 +42,9 @@ draft: false
 
 > pm2 show [name]
 
+### 查看内存使用状态
+> pm2 monit
+
 ### pm2 保存当前进程列表
 > pm2 save
 
