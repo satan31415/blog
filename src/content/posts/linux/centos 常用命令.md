@@ -22,4 +22,6 @@ cat /etc/shells
 # 切换终端
 chsh -s /bin/zsh
 
+# .gz 解压缩
+gzip -d file.gz
 ```
