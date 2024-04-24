@@ -9,6 +9,8 @@ draft: false
 
 ### 仅限我个人常用
 ```shell
+# 服务器重启
+reboot
 # ls 列出文件
 ls
 
