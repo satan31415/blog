@@ -23,7 +23,8 @@ console.log(
 ```ts
 /* region ====== $DESC$ start */
 /* endregion === $DESC$ end */
-
+```
+```html
 <!-- region ====== $DESC$ start -->
 <!-- endregion === $DESC$ end -->
 ```
