@@ -33,7 +33,7 @@ vi /root/Aria2/aria2.conf
 - 就是这个文件 /root/Aria2/aria2.conf, 把下面配置复制进去就好了
 - 下面 rpc-secret=改为你的密码, 这个密码是用来连接 Aria2 的密码
 - 其他的都不用改
-```text
+```bash
 #文件保存路径, 默认为当前启动位置
 dir=/root/Ariadown
 # 在Aria2退出时保存`错误/未完成`的下载任务到会话文件
